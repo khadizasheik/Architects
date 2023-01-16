@@ -1,0 +1,143 @@
+
+@media only screen and (max-width: 600px) {
+    .Main-blok {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-logo {
+        margin-bottom: 25px;
+    }
+    .header-logo a {
+        
+        font-size: 30px;
+
+       }  
+    .menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+    } 
+    .menu ul li {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .banner-item h2 {
+        font-size: 40px;
+       margin-bottom: 10px;
+    }
+    .banner-item {
+        width: 100%;
+       
+    }
+    .banner-area {
+        padding-top: 50px;
+       }
+    .feature-area {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    } 
+    .feature-main {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        width: 100%;
+    } 
+    .feature-content {
+        width: 100%;
+    }
+    .service_area {
+        padding-bottom: 70px;
+    }
+    .service_main_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .service_main_content {
+        width: 100%;
+    }
+    .service_img {
+        position: relative;
+        width: 100%;
+    }
+    .service_experience {
+       bottom: -48px;
+       
+    }
+    .fact_area {
+        padding-bottom: 70px;
+    }
+    .fact_main_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .common_fact {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .container {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .client_area {
+        padding-bottom: 57px;
+    }
+    .common_client {
+        width: 100%;
+    }
+    .client_main_menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_area {
+        margin-bottom: 40px;
+    }
+    .footer_content {
+        background-color: #FFF4E7;
+        text-align: center;
+        padding: 25px;
+        border-radius: 8px;
+    }
+    .footer_content p {
+        color: #424242;
+        font-weight: 400;
+        font-size: 16px;
+    }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  }
